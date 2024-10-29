@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title{
+    width: 14rem;
+}
+
+.crea{
+    color: white;
+}
+
+form{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 1.2rem;
+    padding: 2em 1em;
+} 
+
+footer{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+    background-color: #1D9C9E;
+    color: white;
+    text-align: center;
+}
+.header {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight:600;
+}
+.icon {
+    font-size: 2.5rem;
+    color: white;
+}
+.btn-section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 120ms ease-in-out;
+}
+.btn-green {
+    background-color: #5BBE46;
+}
+.btn-blue {
+    background-color: #4FC3F7;
+}
+.btn-yellow {
+    background-color: #FFC107;
+    color: black;
+}
+.btn-white {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.btn-green:hover {
+    background-color: #57ad46;
+}
+.btn-blue:hover {
+    background-color: #409eca;
+}
+.btn-yellow:hover {
+    background-color: #e0a902;
+    color: black;
+}
+.btn-white:hover {
+    background-color: #bbbbbb;
+    color: black;
+}
+
+.btn-section:hover{
+    transform: scale(1.05);
+}
+
+footer {
+    position: relative;
+}
+
+/* Si la pantalla es mayor a 720px de altura */
+@media (min-height: 720px) {
+    footer {
+        position: auto;
+        bottom: 0;
+    }
+}
+
