@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Transacciones - Cooperativa SHARIF</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #008080;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Barra de título */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #008080;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .header img {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Barra de búsqueda */
+        .search-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        /* Estilos de las tarjetas de transacción */
+        .transaction-card {
+            background-color: #004d4d;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .transaction-icon {
+            font-size: 40px;
+            color: #FFD700;
+            margin-right: 20px;
+        }
+
+        .transaction-details p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <div class="header">
+            <h1>Cooperativa "SHARIF" - Control de Transacciones</h1>
+            <img src="img/imagen4.png" alt="Icono de Transacciones">
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar Transacciones...">
+        </div>
+
+        <!-- Tarjeta de Transacción -->
+        <div class="transaction-card">
+            <div class="transaction-icon">💰</div>
+            <div class="transaction-details">
+                <p><strong>Código:</strong> 12121212</p>
+                <p><strong>Documento de identidad:</strong> 89239921-3</p>
+                <p><strong>Número de cuenta:</strong> 3462 4235 2347</p>
+                <p><strong>Código Usuario:</strong> 251102</p>
+                <p><strong>Monto:</strong> $350.00 (Abono)</p>
+                <p><strong>Fecha:</strong> 25/8/2024</p>
+            </div>
+        </div>
+
+        <!-- Segunda Tarjeta de Transacción -->
+        <div class="transaction-card">
+            <div class="transaction-icon">💰</div>
+            <div class="transaction-details">
+                <p><strong>Código:</strong> 238945</p>
+                <p><strong>Documento de identidad:</strong> 5748890-3</p>
+                <p><strong>Número de cuenta:</strong> 5467 9899 5551</p>
+                <p><strong>Código Usuario:</strong> 777777</p>
+                <p><strong>Monto:</strong> $-100.00 (Retiro)</p>
+                <p><strong>Fecha:</strong> 25/8/2024</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

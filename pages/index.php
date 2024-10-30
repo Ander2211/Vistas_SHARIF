@@ -37,13 +37,13 @@
             <div class="col-md-6">
                 <img src="../img/Vector-1.svg" alt="">
                 <div class="btn-section btn-yellow">
-                    <a href="" class="entrar" style="color: black;">Control de Transacciones</a>
+                    <a href="../notificacion.html" class="entrar" style="color: black;">Control de Transacciones</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <img src="../img/Vector-2.svg" alt="" srcset="">
                 <div class="btn-section btn-white">
-                    <a href="" class="entrar" style="color: black;">Administración Préstamos</a>
+                    <a href="../notificacion2.html" class="entrar" style="color: black;">Administración Préstamos</a>
                 </div>
             </div>
         </div>

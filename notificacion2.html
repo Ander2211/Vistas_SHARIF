@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Préstamos - Cooperativa SHARIF</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #008080;
+            color: #ffffff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            color: #333;
+        }
+
+        /* Barra de título */
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #008080;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .header img {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Botón de retroceso */
+        .back-button {
+            color: #ffffff;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        /* Estilos de las tarjetas de préstamo */
+        .loan-card {
+            background-color: #004d4d;
+            color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .loan-icon {
+            font-size: 40px;
+            color: #FFFFFF;
+            margin-right: 20px;
+        }
+
+        .loan-details p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado -->
+        <div class="header">
+            <div class="back-button" onclick="goBack()">⬅</div>
+            <h1>Cooperativa "SHARIF" - Administración de Préstamos</h1>
+            <img src="/img/imagen4.png" alt="Icono de Préstamos">
+        </div>
+
+        <!-- Tarjeta de Préstamo -->
+        <div class="loan-card">
+            <div class="loan-icon">💵</div>
+            <div class="loan-details">
+                <p><strong>Código:</strong> 123456</p>
+                <p><strong>Documento de identidad:</strong> 78965412-3</p>
+                <p><strong>Código del cliente:</strong> 98765</p>
+                <p><strong>Valor del préstamo:</strong> $5000.00</p>
+                <p><strong>Fecha de desembolso:</strong> 10/10/2024</p>
+                <p><strong>Intereses:</strong> 5%</p>
+                <p><strong>Tiempo para pagar:</strong> 12 meses</p>
+            </div>
+        </div>
+
+        <!-- Segunda Tarjeta de Préstamo -->
+        <div class="loan-card">
+            <div class="loan-icon">💵</div>
+            <div class="loan-details">
+                <p><strong>Código:</strong> 654321</p>
+                <p><strong>Documento de identidad:</strong> 45612378-9</p>
+                <p><strong>Código del cliente:</strong> 12345</p>
+                <p><strong>Valor del préstamo:</strong> $3000.00</p>
+                <p><strong>Fecha de desembolso:</strong> 15/10/2024</p>
+                <p><strong>Intereses:</strong> 4%</p>
+                <p><strong>Tiempo para pagar:</strong> 24 meses</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Función para regresar a la página anterior
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
