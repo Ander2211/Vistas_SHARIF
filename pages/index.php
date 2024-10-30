@@ -15,20 +15,20 @@
             Cooperativa "SHARIF"
         </div>
 
-    <div class="container">
+    <div class="container mb-5 ">
 
         
         <div class="row">
             <div class="col-md-6">
                 <img src="../img/Sin título-2 1.svg" alt="" srcset="">
                 <div class="btn-section btn-green">
-                    <div>Gestión Empleados</div>
+                    <a href="gestion-empleado.php" class="entrar" style="color: black;">Gestión Empleados</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-3">
                 <img src="../img/Vector.svg" alt="" srcset="">
                 <div class="btn-section btn-blue">
-                    <div>Gestión Clientes</div>
+                    <a href="" class="entrar" style="color: black;">Gestión Clientes</a>
                 </div>
             </div>
         </div>
@@ -37,13 +37,13 @@
             <div class="col-md-6">
                 <img src="../img/Vector-1.svg" alt="">
                 <div class="btn-section btn-yellow">
-                    <div>Control de Transacciones</div>
+                    <a href="" class="entrar" style="color: black;">Control de Transacciones</a>
                 </div>
             </div>
             <div class="col-md-6">
                 <img src="../img/Vector-2.svg" alt="" srcset="">
                 <div class="btn-section btn-white">
-                    <div>Administración Préstamos</div>
+                    <a href="" class="entrar" style="color: black;">Administración Préstamos</a>
                 </div>
             </div>
         </div>

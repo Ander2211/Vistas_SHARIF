@@ -49,17 +49,17 @@
     <div class="row justify-content-center">
         <div class="col-md-4">
             
-            <form method="POST" action="loginUser.php">
+            <form method="POST" action="./pages/index.php">
                 <h4 class="text-center">Bienvenido/a</h4>
                 <div class="mb-3">
                     <label for="username" class="form-label">Codigo de Cliente</label>
-                    <input type="text" name="username" id="username" class="form-control" required>
+                    <input type="text" name="username" id="username" class="form-control" >
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Contraseña</label>
-                    <input type="password" name="password" id="password" class="form-control" required>
+                    <input type="password" name="password" id="password" class="form-control" >
                 </div>
-                <button type="submit" class="btn btn-primary w-100 fw-medium">Acceder</button>
+                <button type="submit" class="btn btn-primary w-100 fw-medium"><a class="entrar" href="./pages/index.php">Acceder</a></button>
 
                 <div class="mt-4  text-center">
                     <p>Sistema Cliente</p>
@@ -93,24 +93,6 @@
 
 <script src="js/bootstrap.bundle.min.js"></script>
 
-<?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    if ($username === 'user' && $password === '123') {
-        header("Location: ./pages/index.php");
-        exit();
-    } else {
-        echo "<script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    var myModal = new bootstrap.Modal(document.getElementById('errorModal'));
-                    myModal.show();
-                });
-            </script>";
-    }
-}
-?>
 
 
 

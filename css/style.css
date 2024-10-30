@@ -84,15 +84,63 @@ body {
     transform: scale(1.05);
 }
 
-footer {
-    position: relative;
-}
-
-/* Si la pantalla es mayor a 720px de altura */
-@media (min-height: 720px) {
     footer {
-        position: auto;
+            top: 25vh;
+            position:relative;
+    }
+
+
+
+@media (max-height: 720px) {
+    footer {
+        margin-top: 0;
+        position: relative;
         bottom: 0;
     }
 }
+
+.entrar{
+    color: white;
+    text-decoration: none;
+}
+
+.entrar:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.empleado{
+    height: 8rem;
+    border-radius: 12px;
+    background-color: #0E4B4B;
+}
+@media (max-width: 470px) {
+    .empleado{
+        background-color: #0E4B4B;
+        height: auto;
+        margin: 0 .5rem;
+    }
+}
+
+.form-empleado{
+    padding: .5rem .8rem;
+    height:auto;
+    border-radius: 12px;
+    background-color: #0E4B4B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
