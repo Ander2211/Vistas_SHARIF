@@ -28,7 +28,7 @@
             <div class="col-md-6 mt-3">
                 <img src="../img/Vector.svg" alt="" srcset="">
                 <div class="btn-section btn-blue">
-                    <a href="" class="entrar" style="color: black;">Gestión Clientes</a>
+                    <a href="clientes.php" class="entrar" style="color: black;">Gestión Clientes</a>
                 </div>
             </div>
         </div>

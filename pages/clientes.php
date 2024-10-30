@@ -26,11 +26,11 @@
             </div>
             <div class="col mt-3">
                 <div class="col">
-                <p class="fs-1 fw-medium " style="font-size: 38px ; font-weight: 600;">Registro Empleado</p>
+                <p class="fs-1 fw-medium " style="font-size: 38px ; font-weight: 600;">Clientes</p>
             </div>
             </div>
             <div class="col mt-3">
-                <img src="/img/empleado.svg" alt="" width="30%">
+                <img src="/img/Vector.svg" alt="" width="30%">
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
     </a>
 
     <div class="container mb-5 ">
-        <input type="text" id="disabledTextInput" class="form-control" placeholder="Buscar Empleados" width="100%">
+        <input type="text" id="disabledTextInput" class="form-control" placeholder="Buscar Clientes" width="100%">
     </div>
     
 
@@ -51,7 +51,7 @@
     <div class=" container empleado w-100 ">
         <div class="row">
             <div class="col py-4">
-                <img src="../img/empleado.svg" alt="" srcset="">
+                <img src="../img/Vector.svg" alt="" srcset="">
             </div>
             <div class="col-6  py-4">
                 <p>Lorem, ipsum dolor.</p>
@@ -68,24 +68,7 @@
     <div class=" container empleado w-100 mt-4">
         <div class="row">
             <div class="col py-4">
-                <img src="../img/empleado.svg" alt="" srcset="">
-            </div>
-            <div class="col-6  py-4">
-                <p>Lorem, ipsum dolor.</p>
-                <p>Lorem, ipsum.</p>
-            </div>
-            <div class="col py-4">
-                <button type="button" class="btn btn-info w-100">Actualizar</button>
-                <br>
-                <button type="button" class="btn btn-danger w-100 mt-2">Eliminar</button>
-            </div>
-        </div>
-    </div>
-
-    <div class=" container empleado w-100 mt-4">
-        <div class="row">
-            <div class="col py-4">
-                <img src="../img/empleado.svg" alt="" srcset="">
+                <img src="../img/Vector.svg" alt="" srcset="">
             </div>
             <div class="col-6  py-4">
                 <p>Lorem, ipsum dolor.</p>
@@ -101,7 +84,7 @@
 
 
     <div class="container text-center w-100 mt-5">
-        <a href="nuevoEmpleado.php" type="button" class="btn btn-success p-3 w-25 ">Nuevo Registro</a>
+        <a href="nuevoCliente.php" type="button" class="btn btn-success p-3 w-25 ">Nuevo Registro</a>
     </div>
 
 

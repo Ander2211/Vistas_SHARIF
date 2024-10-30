@@ -28,16 +28,16 @@
             </div>
             <div class="col mt-3">
                 <div class="col">
-                <p class="fs-1 fw-medium">Registro Empleado</p>
+                <p class="fs-1 fw-medium">Registro Cliente</p>
             </div>
             </div>
             <div class="col mt-3">
-                <img src="/img/empleado.svg" alt="" width="30%">
+                <img src="/img/Vector.svg" alt="" width="30%">
             </div>
         </div>
     </div>
 
-    <a href="gestion-empleado.php">
+    <a href="clientes.php">
         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
             class="bi bi-arrow-90deg-left m-2 mb-4" viewBox="0 0 16 16"
             style="position: relative; display:flex; left:1rem; color:white;">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="row mb-3">
                     <div class="col-md-6">
-                        <label for="codigo" class="form-label">Código:</label>
+                        <label for="codigo" class="form-label">Numero de Cuenta:</label>
                         <input type="text" class="form-control" id="codigo">
                     </div>
                     <div class="col-md-6">
@@ -71,7 +71,6 @@
                         <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento:</label>
                         <input type="date" class="form-control" id="fechaNacimiento">
                     </div>
-                    
                 </div>
                 <h5>Dirección Completa:</h5>
                 <div class="row mb-3">
@@ -92,27 +91,13 @@
                         <input type="text" class="form-control" id="departamento">
                     </div>
                 </div>
-                <div class="row mb-3">
-                    <div class="col-md-4">
-                        <label for="puesto" class="form-label">Puesto:</label>
-                        <input type="text" class="form-control" id="puesto">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="sueldo" class="form-label">Sueldo:</label>
-                        <input type="number" class="form-control" id="sueldo" step="0.01">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="codigoJefe" class="form-label">Código Jefe Inmediato:</label>
-                        <input type="text" class="form-control" id="codigoJefe">
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
 
     <div class="container text-center w-100 mt-5">
-        <a href="listoEmpleado.php" type="button" class="btn btn-success p-3 w-25 ">Finalizar Registro</a>
+        <a href="listoCliente.php" type="button" class="btn btn-success p-3 w-25 ">Finalizar Registro</a>
     </div>
 
 
